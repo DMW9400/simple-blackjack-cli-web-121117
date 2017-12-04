@@ -53,7 +53,7 @@ def runner
   card_count = initial_round
   # hit?
 
-  while final_card_count < 21
+  while card_count < 21
     display_card_total(card_count)
     card_count = hit?(card_count)
     return display_card_total (card_count)
